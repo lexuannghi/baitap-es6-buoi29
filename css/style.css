@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+form .error-message {
+  color: red;
+  margin-bottom: 10px;
+}
+form label {
+  margin-bottom: 10px;
+}
+form input, form select {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+form button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+}
+form #additionalFields input {
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */
